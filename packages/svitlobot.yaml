@@ -41,9 +41,9 @@ script:
                   #if defined(USE_ESP8266)
                     return ((std::string) "http://api.svitlobot.in.ua/channelPing?channel_key=" + id(svitlobot_key).state).c_str();
                   #else
-                    return ((std::string) "https://api.svitlobot.in.ua/channelPing?channel_key=" + id(svitlobot_key).state).c_str();
+                    return ((std::string) "http://api.svitlobot.in.ua/channelPing?channel_key=" + id(svitlobot_key).state).c_str();
                   #endif
-                capture_response: false
+                capture_response: true
                 on_response:
                   then:
                     - lambda: id(svitlobot_set_state)->execute(response->status_code, response->duration_ms);
