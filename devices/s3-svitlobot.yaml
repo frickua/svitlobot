@@ -5,7 +5,7 @@ substitutions:
   project_name: "ajs.SvitloBot"
   project_version: "3.5.49 Custom"
   comment: "ESPHome Svitlo Bot | Light"
-  ping_interval: "55s"
+  ping_interval: "45s"
 
 esphome:
   name: "${name}"
@@ -57,6 +57,8 @@ web_server:
 wifi:
   ap: {}  # This spawns an AP with the device name and mac address with no password.
   id: oled_wifi
+  fast_connect: false
+  power_save_mode: none
   enable_btm: true
   enable_rrm: true
 
@@ -357,7 +359,7 @@ interval:
   - interval: 45s
     id: svitlobot
     then:
-      - script.execute: site_ping
+      - script.execute: send_state
   - interval: 30s
     then:
       - if:
