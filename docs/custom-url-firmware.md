@@ -56,4 +56,4 @@ description: Індивідуальний моніторинг | "Сигнали
 
 ---
 
-[SvitloBot | Custom URL](https://github.com/andrewjswan/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).
+[SvitloBot | Custom URL](https://github.com/frickua/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).

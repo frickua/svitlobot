@@ -11,7 +11,7 @@
 - **Вимкнено** - не було підключення, або все добре і ми в режимі очікування наступної сесії.
 
 !!! example "Конфігурація"
-    * [Файл конфігурації](https://github.com/andrewjswan/svitlobot/tree/main/devices/atom-svitlobot.yaml)
+    * [Файл конфігурації](https://github.com/frickua/svitlobot/tree/main/devices/atom-svitlobot.yaml)
     * [Прошивка](svitlobot-firmware.md)
 
 !!! tip "Корисне"

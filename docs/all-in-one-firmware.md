@@ -83,4 +83,4 @@ description: Комбінована прошивка | Різні варіант
 
 ---
 
-[SvitloBot | All-In-One](https://github.com/andrewjswan/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).
+[SvitloBot | All-In-One](https://github.com/frickua/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).

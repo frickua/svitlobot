@@ -9,11 +9,11 @@ esp32:
     type: esp-idf
 
 dashboard_import:
-  package_import_url: github://andrewjswan/svitlobot/healthcheck/healthcheck_esp32c6.yaml@main
+  package_import_url: github://frickua/svitlobot/healthcheck/healthcheck_esp32c6.yaml@main
 
 packages:
   remote_package:
-    url: https://github.com/andrewjswan/svitlobot
+    url: https://github.com/frickua/svitlobot
     files:
       - packages/common.yaml
       - packages/healthcheck.yaml

@@ -1,6 +1,6 @@
 ﻿$(document).ready(function() {
     // Version
-    const url = "https://andrewjswan.github.io/svitlobot/svitlobot-manifest.json";
+    const url = "https://frickua.github.io/svitlobot/svitlobot-manifest.json";
     $.getJSON(url).done(function(data) {
         $("#version").text(data.version);
     });

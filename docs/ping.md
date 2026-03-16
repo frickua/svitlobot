@@ -39,7 +39,7 @@
     ``` { .yaml .copy .annotate }
     packages:
       remote_package:
-        url: https://github.com/andrewjswan/svitlobot
+        url: https://github.com/frickua/svitlobot
         files:
           ...
           - packages/ping.yaml

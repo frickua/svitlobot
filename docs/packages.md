@@ -1,6 +1,6 @@
 # 📦 Пакети конфігурації ESPHome для SvitloBot
 
-Цей розділ містить готові модульні пакети ([packages](https://github.com/andrewjswan/svitlobot/tree/main/packages)), які дозволяють швидко зібрати прошивку для вашого пристрою. Замість копіювання величезних блоків коду, ви просто підключаєте потрібні функції однією директивою.
+Цей розділ містить готові модульні пакети ([packages](https://github.com/frickua/svitlobot/tree/main/packages)), які дозволяють швидко зібрати прошивку для вашого пристрою. Замість копіювання величезних блоків коду, ви просто підключаєте потрібні функції однією директивою.
 
 ## 🚀 Переваги використання пакетів
 
@@ -16,7 +16,7 @@
 
 Виберіть базові пакети залежно від вашої платформи та потреб:
 
-* **[common.yaml](https://github.com/andrewjswan/svitlobot/blob/main/packages/common.yaml)** — Загальні налаштування системи (Wi-Fi, API, Logger).
+* **[common.yaml](https://github.com/frickua/svitlobot/blob/main/packages/common.yaml)** — Загальні налаштування системи (Wi-Fi, API, Logger).
 * **[esp32.yaml](https://github.com/andrewjswan/svitlobot/blob/main/packages/esp32.yaml)** / **[esp8266.yaml](https://github.com/andrewjswan/svitlobot/blob/main/packages/esp8266.yaml)** — Конфігурація для відповідного типу мікроконтролера.
 * **[web_server_auth.yaml](https://github.com/andrewjswan/svitlobot/blob/main/packages/web_server_auth.yaml)** — Веб-інтерфейс із авторизацією.
 

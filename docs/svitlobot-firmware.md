@@ -100,4 +100,4 @@ description: Сповіщення в телеграм-канал від сист
 
 ---
 
-[SvitloBot](https://github.com/andrewjswan/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).
+[SvitloBot](https://github.com/frickua/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).

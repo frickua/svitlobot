@@ -11,11 +11,11 @@ esp8266:
   restore_from_flash: true
 
 dashboard_import:
-  package_import_url: github://andrewjswan/svitlobot/svitlobot/svitlobot_esp8266.yaml@main
+  package_import_url: github://frickua/svitlobot/svitlobot/svitlobot_esp8266.yaml@main
 
 packages:
   remote_package:
-    url: https://github.com/andrewjswan/svitlobot
+    url: https://github.com/frickua/svitlobot
     files:
       - packages/common.yaml
       - packages/svitlobot.yaml

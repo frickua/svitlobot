@@ -56,4 +56,4 @@ description: Моніторинг зв'язку | "Сигнали життя" (p
 
 ---
 
-[SvitloBot | HealthCheck](https://github.com/andrewjswan/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).
+[SvitloBot | HealthCheck](https://github.com/frickua/svitlobot) — Інсталятор на базі [ESP Web Tools](https://esphome.github.io/esp-web-tools/).

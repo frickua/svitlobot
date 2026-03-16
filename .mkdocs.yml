@@ -1,13 +1,13 @@
 # Project information
 site_name: ESPHome SvitloBot | Andrew J.Swan
-site_url: https://andrewjswan.github.io/svitlobot
+site_url: https://frickua.github.io/svitlobot
 site_author: Andrew J.Swan
 site_description: >-
   ESPHome firmware for SvitloBot | svitlobot.in.ua.
 
 # Repository
-repo_name: andrewjswan/svitlobot
-repo_url: https://github.com/andrewjswan/svitlobot
+repo_name: frickua/svitlobot
+repo_url: https://github.com/frickua/svitlobot
 remote_branch: documentation
 
 # Copyright
@@ -114,7 +114,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/andrewjswan
+      link: https://github.com/frickua
 
 extra_css:
   - stylesheets/table.css

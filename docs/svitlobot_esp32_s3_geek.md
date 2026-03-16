@@ -5,7 +5,7 @@
 Індикація стану за допомогою вбудованого дісплея.
 
 !!! example "Конфігурація"
-    * [Файл конфігурації](https://github.com/andrewjswan/svitlobot/tree/main/devices/s3-geek-svitlobot.yaml)
+    * [Файл конфігурації](https://github.com/frickua/svitlobot/tree/main/devices/s3-geek-svitlobot.yaml)
     * [Прошивка](svitlobot-firmware.md)
 
 !!! tip "Корисне"

@@ -25,13 +25,13 @@ esphome:
 external_components:
   - source:
       type: git
-      url: https://github.com/andrewjswan/esphome-components
+      url: https://github.com/frickua/esphome-components
       ref: main
     components: [shadow]
     refresh: 60s
 
 dashboard_import:
-  package_import_url: github://andrewjswan/svitlobot/devices/zero-svitlobot.yaml@main
+  package_import_url: github://frickua/svitlobot/devices/zero-svitlobot.yaml@main
 
 esp32:
   variant: esp32s3
@@ -346,7 +346,7 @@ update:
   - platform: http_request
     id: new_firmware
     name: "Firmware Update"
-    source: https://andrewjswan.github.io/svitlobot/devices/${name}-svitlobot-manifest.json
+    source: https://frickua.github.io/svitlobot/devices/${name}-svitlobot-manifest.json
     icon: mdi:update
     update_interval: 3h
     web_server:

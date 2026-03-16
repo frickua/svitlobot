@@ -8,7 +8,7 @@ body:
 
         If you have a feature or enhancement request, please use the [feature request][fr] section of our [Discussions][fr].
 
-        [fr]: https://github.com/andrewjswan/svitlobot/discussions/categories/feature-request
+        [fr]: https://github.com/frickua/svitlobot/discussions/categories/feature-request
   - type: textarea
     validations:
       required: true

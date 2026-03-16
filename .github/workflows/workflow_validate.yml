@@ -7,7 +7,7 @@ on:
 jobs:
   validate:
     name: 👻 Validation
-    uses: "andrewjswan/actions/.github/workflows/validate.yml@main"
+    uses: "frickua/actions/.github/workflows/validate.yml@main"
     permissions:
       contents: write
       issues: write
