@@ -21,6 +21,10 @@ ota:
 logger:
   level: DEBUG
 
+select:
+  - platform: logger
+    name: "Log Level"
+
 mdns:
   disabled: false
 
